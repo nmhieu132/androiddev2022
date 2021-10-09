@@ -1,26 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/container"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    container
-    <TextView
-        android:gravity="center"
-        android:textSize="30sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="30dp"
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Thursday" />
+    android:orientation="vertical"
+    android:background="#00F7FF"
+    android:id="@+id/forcecast"
+    tools:context=".WeatherForecast">
 
-    <ImageView
-        android:layout_gravity="center"
-        android:id="@+id/imageView"
-        android:layout_width="225dp"
-        android:layout_height="225dp"
-        android:src="@drawable/sun" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
+                <TextView
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="100px"
+                    android:text="@string/Monday" />
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_marginLeft="100px"
+                    android:contentDescription="@string/MonWea"
+                    android:src="@drawable/sun" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:text="@string/MonWea" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="100px"
+                    android:text="@string/Tuesday" />
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:contentDescription="@string/TueWea"
+                    android:src="@drawable/cloudy"
+                    android:layout_marginLeft="100px"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/TueWea"
+                    android:layout_marginLeft="100px"
+                    />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100px"
+                    android:text="@string/Wednesday"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:contentDescription="@string/WedWea"
+                    android:src="@drawable/rainy"
+                    android:layout_marginLeft="100px"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/WedWea"
+                    android:layout_marginLeft="100px"
+                    />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100px"
+                    android:text="@string/Thursday"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:contentDescription="@string/ThuWea"
+                    android:src="@drawable/rainy"
+                    android:layout_marginLeft="100px"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/ThuWea"
+                    android:layout_marginLeft="100px"
+                    />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100px"
+                    android:text="@string/Friday"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:contentDescription="@string/FriWea"
+                    android:src="@drawable/storm"
+                    android:layout_marginLeft="100px"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/FriWea"
+                    android:layout_marginLeft="100px"
+                    />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100px"
+                    android:text="@string/Saturday"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:contentDescription="@string/SatWea"
+                    android:src="@drawable/storm"
+                    android:layout_marginLeft="100px"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/SatWea"
+                    android:layout_marginLeft="100px"
+                    />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100px"
+                    android:text="@string/Sunday"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:contentDescription="@string/SunWea"
+                    android:src="@drawable/cloudy"
+                    android:layout_marginLeft="100px"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/SunWea"
+                    android:layout_marginLeft="100px"
+                    />
+        </LinearLayout>
 </LinearLayout>
+
+                        
