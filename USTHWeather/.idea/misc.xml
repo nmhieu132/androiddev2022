@@ -5,8 +5,11 @@
       <map>
         <entry key="..\:/Users/DELL/Desktop/Mobileapp/androiddev2022/USTHWeather/app/src/main/res/layout/activity_main.xml" value="0.1265625" />
         <entry key="..\:/Users/DELL/Desktop/Mobileapp/androiddev2022/USTHWeather/app/src/main/res/layout/activity_weather.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/Desktop/Mobileapp/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_nomore_page.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/DELL/Desktop/Mobileapp/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_view_pager_adapter.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/DELL/Desktop/Mobileapp/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_weather.xml" value="0.22708333333333333" />
         <entry key="..\:/Users/DELL/Desktop/Mobileapp/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_weather_forecast.xml" value="0.3072916666666667" />
+        <entry key="..\:/Users/DELL/Desktop/Mobileapp/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_weatherand_forecast.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/Desktop/Mobileapp/prac/USTHWeather/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/DELL/Desktop/Mobileapp/prac/USTHWeather/app/src/main/res/layout/fragment_weather_forecast.xml" value="0.3255208333333333" />
       </map>

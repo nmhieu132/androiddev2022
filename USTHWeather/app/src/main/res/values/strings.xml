@@ -25,5 +25,6 @@
 
     <string name="Paris" translatable="false">Paris</string>
     <string name="PaWea">15&#8451; \nSunny</string>
+    <string name="Nomore">This is the end..</string>
 
 </resources>

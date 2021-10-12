@@ -7,19 +7,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".WeatherActivity">
-    <fragment
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:id="@+id/Parisweather"-->
+<!--        android:name="vn.edu.usth.usthweather.WeatherFragment"/>-->
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:id="@+id/forecast"-->
+<!--        android:name="vn.edu.usth.usthweather.WeatherForecast"-->
+<!--    />-->
+    <androidx.viewpager2.widget.ViewPager2
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/Parisweather"
-        android:name="vn.edu.usth.usthweather.WeatherFragment"/>
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/forecast"
-        android:name="vn.edu.usth.usthweather.WeatherForecast"
-    />
+        android:id="@+id/viewpager"/>
 
 
 </LinearLayout>
