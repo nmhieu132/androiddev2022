@@ -27,4 +27,8 @@
     <string name="PaWea">15&#8451; \nSunny</string>
     <string name="Nomore">This is the end..</string>
 
+    <string name="tab1">Hai Phong, Vie</string>
+    <string name="tab2">Hanoi, Vie</string>
+    <string name="tab3">Hue, Vie</string>
+
 </resources>
