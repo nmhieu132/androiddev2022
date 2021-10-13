@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USTH Thời Tiết</string>
+    <string name="hello_blank_fragment">Xin chào, đây là fragment trống</string>
+    <string name="Monday">Thứ 2</string>
+    <string name="MonWea">Trời quang mây</string>
+    <string name="Tuesday">Thứ 3</string>
+    <string name="TueWea">Sương mù và ẩm</string>
+    <string name="Wednesday">Thứ 4</string>
+    <string name="WedWea">Mưa rào</string>
+    <string name="Thursday">Thứ 5</string>
+    <string name="ThuWea">Mưa rào</string>
+    <string name="Friday">Thứ 6</string>
+    <string name="FriWea">Giông bão</string>
+    <string name="Saturday">Thứ 7</string>
+    <string name="SatWea">Giông bão</string>
+    <string name="Sunday">Chủ Nhật</string>
+    <string name="SunWea">Sương mù và ẩm</string>
+    <string name="Nomore">Đây là kết thúc..</string>
+    <string name="tab1">Hải Phòng</string>
+    <string name="tab2">Hà Nội</string>
+    <string name="tab3">Huế</string>
+</resources>

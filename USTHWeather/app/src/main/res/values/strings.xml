@@ -24,7 +24,7 @@
     <string name="SunWea">Foggy and Humid \n15&#8451; - 18&#8451;</string>
 
     <string name="Paris" translatable="false">Paris</string>
-    <string name="PaWea">15&#8451; \nSunny</string>
+    <string name="PaWea" translatable="false">15&#8451; \nSunny</string>
     <string name="Nomore">This is the end..</string>
 
     <string name="tab1">Hai Phong, Vie</string>
