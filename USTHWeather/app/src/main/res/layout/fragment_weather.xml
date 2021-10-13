@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00F7FF"
+    android:background="@drawable/bg"
     android:id="@+id/Parisweather"
     tools:context=".WeatherFragment">
 
@@ -22,15 +22,15 @@
         android:layout_width="wrap_content"
         android:layout_height="120dp"
         android:layout_centerInParent="true"
+
         android:contentDescription="@string/PaWea"
         android:src="@drawable/sun" />
 
     <TextView
+        android:id="@+id/Paris"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:text="@string/Paris"
-        android:id="@+id/Paris"
-        android:layout_alignParentEnd="true"
-        android:textSize="50px"
-        android:layout_marginRight="50px"/>
+        android:textSize="50px" />
 </RelativeLayout>
